@@ -36,3 +36,26 @@ export { default as AmityExpandableText } from '~/social/components/Comment/Comm
 // import AmityPostLikeButton from './components/PostLikeButton';
 // import AmityRecentChat from './components/RecentChat';
 // import AmitySideMenu from './components/SideMenu';
+
+export { default as Button } from '~/core/components/Button';
+
+export { PageTypes } from '~/social/constants';
+
+export { default as MainLayout } from '~/social/layouts/Main';
+
+export { default as CommunitySideMenu } from '~/social/components/CommunitySideMenu';
+
+export { default as ExplorePage } from '~/social/pages/Explore';
+export { default as NewsFeedPage } from '~/social/pages/NewsFeed';
+export { default as CommunityFeedPage } from '~/social/pages/CommunityFeed';
+export { default as UserFeedPage } from '~/social/pages/UserFeed';
+export { default as CategoryCommunitiesPage } from '~/social/pages/CategoryCommunities';
+export { default as CommunityEditPage } from '~/social/pages/CommunityEdit';
+export { default as ProfileSettings } from '~/social/components/ProfileSettings';
+
+export { useNavigation } from '~/social/providers/NavigationProvider';
+export { useSDK } from '~/core/hocs/withSDK';
+
+export * as Icons from '~/icons';
+export { default as UiKitSocialSearch } from '~/social/components/SocialSearch';
+export { default as customizableComponent } from '~/core/hocs/customization';

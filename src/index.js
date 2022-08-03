@@ -52,6 +52,7 @@ export { default as UserFeedPage } from '~/social/pages/UserFeed';
 export { default as CategoryCommunitiesPage } from '~/social/pages/CategoryCommunities';
 export { default as CommunityEditPage } from '~/social/pages/CommunityEdit';
 export { default as ProfileSettings } from '~/social/components/ProfileSettings';
+export { default as SideMenu } from '~/core/components/SideMenu';
 
 export { useNavigation } from '~/social/providers/NavigationProvider';
 export { useSDK } from '~/core/hocs/withSDK';
